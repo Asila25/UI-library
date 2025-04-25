@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TopSide from "./components/TopSide";
 import Main from "./components/Main";
 
-const users = (props) => {
+const User = (props) => {
   const [selectedUser, setSelectedUser] = useState(null);
 
   return (
@@ -13,4 +13,4 @@ const users = (props) => {
   );
 };
 
-export default users;
+export default User;

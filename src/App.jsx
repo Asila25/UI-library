@@ -1,12 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import { Users } from './app/index';
+import User from './app/Users/users';
 
 const App = () => {
     const store = useSelector((state) => state);
    return (
      <div>
-       <Users />
+       <User />
      </div>
    );
 }
